@@ -64,7 +64,7 @@ test('Amounts santized correctly with missing transaction information', t => {
     ]);
 })
 
-// Rounding Tests
+// Rounding
 test('Decimal is rounded up correctly for set Q+', t => {
     t.deepEqual(roundToTwoDp(1.626), 1.63);
 })
